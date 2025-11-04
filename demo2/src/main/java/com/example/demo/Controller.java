@@ -34,7 +34,8 @@ public class Controller {
     public String reservedName(){
         String names="leena";
         StringBuilder res =new StringBuilder(names);
-        return "The name Leena Reserved is:"+res;
+        String ress= res.reverse().toString();
+        return "The name Leena Reserved is:"+ress;
     }
 
     @GetMapping("/factorial")
