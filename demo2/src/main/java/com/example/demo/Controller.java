@@ -12,7 +12,8 @@ public class Controller {
 
     @GetMapping("/sum")
     public String sum(){
-        return "The sum of two 10 and 20 is:"+10+20;
+        int result=10+20;
+        return "The sum of two 10 and 20 is:"+result;
     }
 
     @GetMapping("/even")
